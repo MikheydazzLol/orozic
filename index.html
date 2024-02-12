@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+    <div class="container container_header">
+        <img class="header_logo" src="https://media.discordapp.net/attachments/698541584169435303/1182322172459491489/ow3Logo.png?ex=65844654&is=6571d154&hm=bebc31b5ba8081cd94c52de9c34da73d7541dc33f57e5bbb36893171a604eee5&=&format=webp&quality=lossless&width=1452&height=657" alt="">
+        <nav class="header_nav">
+            <ul class="header_nav_list">
+                <a style="text-decoration: none;" href="index.html"><li class="header_nav_list_item">Главная</li></a>
+                <a style="text-decoration: none;" href="index.html#linksID"> <li class="header_nav_list_item">Ссылки</li></a>
+                <a style="text-decoration: none;" href="rules.html"><li class="header_nav_list_item">Правила</li></a>
+            </ul>
+        </nav>
+    </div>
+</header>
+    <main>
+    <section class="intro">
+    <div class="container container_intro">
+        <h1 class="intro_title intro_text">OrozicWorld</h1>
+        <p class="intro_desc intro_text"><b>OrozicWorld</b> - это уникальный сервер с крутыми ивентами, без привилегий и приватов.</p>
+        <button class="intro_button"><a href="#serversID" style="text-decoration: none; color: white;">Сервера</a></button>
+    </div>
+</section>
+<div class="line_bright"></div>
+<section class="servers" id="serversID">
+    <div class="container container_servers">
+        <h2 class="servers_title">Наши сервера</h1>
+            <div class="cards">
+                <div class="servers_card">
+    <div class="servers_card_back"> 
+    </div>
+    <div class="servers_card_front">
+        <img class="card_img" src="image/ow3.png" alt="...">
+        <p class="card_name">OrozicWorld</p>
+    <div class="card_arguments">
+        <p class="card_price_past">100р</p>
+        <div class="card_price">
+            <p class="card_price_new">0р</p>
+        </div>
+        <a style="text-decoration: none;" href="https://discord.gg/BRBYeJDNzv" class="card_buuton_main"><button class="card_button">Получить</button></a>
+    </div>
+    </div>
+</div>
+            </div>
+    </div>
+</section>
+<div class="line_dark"></div>
+<section class="links">
+    <h2 class="servers_title" id="linksID">Ссылки</h1>
+        <div class="links_items" id="main_links">
+            <a onclick="ShowYoutube()"><img src="https://media.discordapp.net/attachments/698541584169435303/1184066362046414958/Network_Card_2.png?ex=658a9ebb&is=657829bb&hm=59cae1b2ca9d4811bb3ae562fbe6bef1743003233bf32220a1f456f6c0ce65ad&=&format=webp&quality=lossless" class="links_item"></a>
+            <a href="https://www.twitch.tv/ruffi_t"><img src="https://media.discordapp.net/attachments/698541584169435303/1184066403440021534/Network_Card_1.png?ex=658a9ec5&is=657829c5&hm=93dc957e4da6c37d398a8da43b9ff742db19d10354e84010db5e93678673baf5&=&format=webp&quality=lossless" class="links_item"></a>
+            <a href="https://discord.gg/EnqE94FDQY"><img src="https://media.discordapp.net/attachments/698541584169435303/1184066422075297822/Network_Card.png?ex=658a9ec9&is=657829c9&hm=86d92480972cf8ba7ce87b58d8714d1f8f77b94deb72ee0dfafcd7915d684753&=&format=webp&quality=lossless" class="links_item"></a>
+        </div>
+        <div class="links_youtubes hide_links" id="youtube_links">
+
+            <div class="links_youtube_first">
+                <h3 class="intro_title">ruffi_t</h3>
+                <a href="http://www.youtube.com/@ruffi_t" class="image_link"><img src="https://media.discordapp.net/attachments/698541584169435303/1184066362046414958/Network_Card_2.png?ex=658a9ebb&is=657829bb&hm=59cae1b2ca9d4811bb3ae562fbe6bef1743003233bf32220a1f456f6c0ce65ad&=&format=webp&quality=lossless" class="links_item"></a>
+            </div>
+
+            <div class="links_youtube_second">
+                <h3 class="intro_title">Dycate</h3>
+                <a href="http://www.youtube.com/@Dycate1" class="image_link"><img src="https://media.discordapp.net/attachments/698541584169435303/1184066362046414958/Network_Card_2.png?ex=658a9ebb&is=657829bb&hm=59cae1b2ca9d4811bb3ae562fbe6bef1743003233bf32220a1f456f6c0ce65ad&=&format=webp&quality=lossless" class="links_item"></a>
+            </div>
+            <img onclick="ShowYoutube()" class="back_arrow_links" width="50" height="50" src="https://img.icons8.com/ios-filled/50/long-arrow-left.png" alt="long-arrow-left"/>
+        </div>
+</section>
+    </main>
+    <footer class="footer">
+    <div class="container container_footer">
+        <div class="footer_text_container">
+            <p class="footer_text_title">OrozicWorld</p>
+            <p class="footer_text">(с) 2023. Все права защищены.</p>
+        </div>
+    </div>
+</footer>
+    <script src="http://mihailmaximov.ru/projects/snow/snowfall2020.js"></script>
+    <script src="js/youtubes.js"></script>
+</body>
+</html>
